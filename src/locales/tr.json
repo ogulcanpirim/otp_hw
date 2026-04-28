@@ -1,0 +1,40 @@
+{
+  "appName": "Market ödevi",
+  "nav": {
+    "market": "Market",
+    "addMarketItem": "Öğe ekle",
+    "shoppingList": "Alışveriş listesi",
+    "profile": "Profil",
+    "settings": "Ayarlar"
+  },
+  "header": {
+    "accessibility": {
+      "addMarketItem": "Yeni market öğesi ekle",
+      "shoppingList": "Alışveriş listesini aç",
+      "profile": "Profili aç",
+      "settings": "Ayarları aç"
+    }
+  },
+  "screens": {
+    "market": {
+      "title": "Market kataloğu",
+      "body": "Ana ekran: RTK Query listesi, isteğe bağlı sayfalama, üstte + ile öğe ekleme modalı, sepet rozeti, profil ve ayarlar."
+    },
+    "addMarketItem": {
+      "title": "Market öğesi ekle",
+      "body": "POST /api/markets ile katalog satırı oluşturma modalı. Gereksinimler aşağıda."
+    },
+    "shoppingList": {
+      "title": "Alışveriş listesi",
+      "body": "Sepeti yönetin, anlık toplam ve ödemeyi gösterin; userWallet dilimindeki bakiyeye uyun."
+    },
+    "profile": {
+      "title": "Profil",
+      "body": "userWallet üzerinden kalan para ve geçmiş ödemeleri gösterin. Ödeme alışveriş listesinden başlar."
+    },
+    "settings": {
+      "title": "Ayarlar",
+      "body": "Temayı tema dilimi üzerinden, dili i18n + dil dilimi üzerinden değiştirin. Varsayılan yerel ayar İngilizcedir."
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "appName": "Market homework",
+  "nav": {
+    "market": "Market",
+    "addMarketItem": "Add item",
+    "shoppingList": "Shopping list",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "header": {
+    "accessibility": {
+      "addMarketItem": "Add new market item",
+      "shoppingList": "Open shopping list",
+      "profile": "Open profile",
+      "settings": "Open settings"
+    }
+  },
+  "screens": {
+    "market": {
+      "title": "Market catalog",
+      "body": "Primary screen: RTK Query list, optional pagination, header plus for add-item modal, cart with badge, profile, and settings."
+    },
+    "addMarketItem": {
+      "title": "Add market item",
+      "body": "Modal for creating catalog rows via POST /api/markets. Requirements are listed below."
+    },
+    "shoppingList": {
+      "title": "Shopping list",
+      "body": "Manage the cart, show a running total and checkout, and respect wallet balance from the userWallet slice."
+    },
+    "profile": {
+      "title": "Profile",
+      "body": "Show money remaining and past checkouts from userWallet. Checkout is initiated from the shopping list."
+    },
+    "settings": {
+      "title": "Settings",
+      "body": "Switch theme via the theme slice and language via i18n + the language slice. English is the default locale."
+    }
+  }
+}
